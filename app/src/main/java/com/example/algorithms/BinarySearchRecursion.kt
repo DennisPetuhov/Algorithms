@@ -75,10 +75,6 @@ fun getFibonacciByIndexRecursive(n: Int): Long {
 }
 
 
-
-
-
-
 fun binarySearchIterative(input: IntArray, eleToSearch: Int, low: Int, high: Int): Int {
     while (low <= high) {
         val mid = (low + high) / 2
@@ -111,7 +107,10 @@ fun IntArray.bubleSort() {
             var previos = this[i - 1]
             var current = this[i]
             if (previos > current) {
-                this.swap(i - 1, i)
+                this.swap(
+                    i - 1,
+                    i
+                )
                 sorted = false
             }
         }
@@ -126,8 +125,6 @@ fun IntArray.swap(index1: Int, index2: Int) {
 
 
 }
-
-
 
 
 fun linerSearch(list: List<Int>, searchElement: Int): Int {
@@ -159,10 +156,10 @@ fun binerySearch(list: List<Int>, searchElement: Int): Int {
         }
     }
 
-return -1
+    return -1
 }
 
-fun binerySearch1(list: List<Int>, searchElement: Int,low: Int, high: Int): Int {
+fun binerySearch1(list: List<Int>, searchElement: Int, low: Int, high: Int): Int {
 
 //    var low = 0
 //    var high = list.size - 1
@@ -172,10 +169,10 @@ fun binerySearch1(list: List<Int>, searchElement: Int,low: Int, high: Int): Int 
 
         when {
 //            searchElement > med -> low = med + 1
-            searchElement > med -> return  binerySearch1(list,searchElement,med+1,high)
+            searchElement > med -> return binerySearch1(list, searchElement, med + 1, high)
             searchElement == med -> return med
 //            searchElement < med -> high = med - 1
-            searchElement < med -> return  binerySearch1(list,searchElement,low,med-1)
+            searchElement < med -> return binerySearch1(list, searchElement, low, med - 1)
         }
     }
 
