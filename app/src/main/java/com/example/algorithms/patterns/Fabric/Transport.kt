@@ -1,4 +1,4 @@
-package com.example.algorithms.Patterns.Fabric
+package com.example.algorithms.patterns.Fabric
 
 interface Transport{
 

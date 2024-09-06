@@ -1,6 +1,4 @@
-package com.example.algorithms.Patterns.Iterator
-
-import Iterator_Composite.IteratorPattern.MenuItem
+package com.example.algorithms.patterns.Iterator
 
 class IteratorMy1 {
 }

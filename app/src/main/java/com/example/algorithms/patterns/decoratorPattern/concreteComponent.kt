@@ -1,4 +1,4 @@
-package DecoratorPattern
+package com.example.algorithms.patterns.decoratorPattern
 
 // if we want in runtime to return the description, `currentDescription` will be called
 class FreshPizza: Pizza() {

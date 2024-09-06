@@ -1,4 +1,4 @@
-package com.example.algorithms.GreedyAlgorithm
+package com.example.algorithms.greedyAlgorithm
 
 class Greedyy {
 }

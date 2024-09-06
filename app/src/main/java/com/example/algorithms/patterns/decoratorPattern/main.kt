@@ -1,4 +1,4 @@
-package DecoratorPattern
+package com.example.algorithms.patterns.decoratorPattern
 
 class OurStore {
     private val newOrder: Pizza = FreshPizza()

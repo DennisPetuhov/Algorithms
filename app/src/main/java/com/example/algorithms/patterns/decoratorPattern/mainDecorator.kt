@@ -1,8 +1,8 @@
-package DecoratorPattern
+package com.example.algorithms.patterns.decoratorPattern
 
 abstract class Topping: Pizza() {
     abstract val currentPizza: Pizza
 
-    // TODO: compare with Java where we don't use override
+
     abstract override fun currentDescription(): String
 }

@@ -1,10 +1,6 @@
-package com.example.algorithms.Patterns
+package com.example.algorithms.patterns
 
-import com.example.algorithms.Patterns.Drawer
-import com.example.algorithms.Patterns.SmallCircleDrawer
-import com.example.algorithms.Patterns.LargeCircleDrawer
 import kotlin.jvm.JvmStatic
-import com.example.algorithms.Patterns.Circle
 
 interface Drawer {
     fun drawCircle(x: Int, y: Int, radius: Int)

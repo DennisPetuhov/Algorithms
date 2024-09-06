@@ -1,6 +1,4 @@
-package com.example.algorithms.Patterns
-
-import com.example.algorithms.Patterns.Car.MyBuilder
+package com.example.algorithms.patterns
 
 class Builder {
 }

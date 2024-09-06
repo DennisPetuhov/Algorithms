@@ -1,4 +1,4 @@
-package DecoratorPattern
+package com.example.algorithms.patterns.decoratorPattern
 
 abstract class Pizza {
     open val description: String = "Base pizza"

@@ -1,4 +1,4 @@
-package com.example.algorithms.Patterns
+package com.example.algorithms.patterns
 
 class ChainOfResponsibility {
 }

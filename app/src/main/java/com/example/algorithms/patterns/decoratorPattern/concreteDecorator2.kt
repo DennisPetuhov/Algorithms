@@ -1,4 +1,4 @@
-package DecoratorPattern
+package com.example.algorithms.patterns.decoratorPattern
 
 class Cheese(newPizza: Pizza): Topping() {
     override val currentPizza: Pizza = newPizza
